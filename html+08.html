@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2018 Youth Camp Registration Form</title>
+    <style>
+        .text-area-label {
+            text-align: center;
+        }
+        input {
+            margin-bottom: 10px;
+            height: 20px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        form, p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 5px;
+        }
+        select {
+            margin-left: 5px;
+            font-size: 18px;
+        }
+        input, textarea, select {
+            background-color: lightgrey;
+        }
+        h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        section {
+            border: 2px solid black;
+        
+        }
+        h3 {
+            background-color: lightblue;
+            border: 2px solid black;
+        text-align: center;
+        }
+        h4 {
+            text-align: center;
+        }
+        #date {
+            font-size: 20px;
+        }
+        #Mail {
+            width: 20px;
+            align-items: center;
+        }
+        #Mail+label {
+            font-size: 18px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>2018 Youth Camp Registration Form</h1>
+    <p>Please visit <a href="www.FeatherRiverCamp.com">our website</a> prior to completing form for information on rates, dates, scholarships and
+        important registration information. To ensure timely registration processing, please complete all fields. If you have any questions, give us a call!</p><br>
+        <form action="www.FeatherRiverCamp.com" method="post">
+            <label for="Campername">Camper Name</label><input type="text" id="Campername"><br>
+            <label for="Birthdate">Birthdate</label><input type="date" name="Birthdate" id="date"><br>
+            <label for="GradeinSept18">Grade in Sept '18</label><select name="GradeinSept18" id="GradenSept18">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select><br>
+            <label for="Gender">Gender</label><input type="radio" name="Gender" id="Gender">Male
+            <input type="radio" name="Gender" id="Gender">Female <br>
+            This will be my child's <input type="number" max="30" min="0"> Summer at OFRC Youth Camp. <br>
+            <label for="Tshirtsize">T-shirt Size</label><select name="Tshirtsize" id="Tshirtsize">
+                <option value="YS">YS</option>
+                <option value="YM">YM</option>
+                <option value="YL">YL</option>
+                <option value="AS">AS</option>
+                <option value="AM">AM</option>
+                <option value="AL">AL</option>
+                <option value="AXL">AXL</option>
+                <option value="AXXL">AXXL</option>
+            </select><br><br>
+            <label for="School">School</label><input type="text" name="School" id="School"><br>
+        <label for="Streetaddress" class="text-area-label">Street Addres</label><br><textarea name="Streetaddress" id="Streetaddress" cols="30" rows="5" class="text-area-label">
+        </textarea>
+        <h3>Parent Contact information</h3>
+        <label for="Parentname">Parent/Guardian Name</label><input type="text" id="Parentname">
+        <label for="Parentname">Contact Number</label><input type="number" name="contactnr" id="contactnr">
+        <label for="Dayphone">Day Phone:</label><select name="dayphone" id="Dayphone"><option value="Cell">Cell</option>
+        <option value="Work">Work</option><option value="Home">Home</option></select>
+        <label for="evening">Evening Phone</label><select name="evening" id="evening"><option value="Cell">Cell</option>
+            <option value="Work">Work</option><option value="Home">Home</option></select><br>
+
+        <label for="Addparent">Additional Parent/Guardian Name</label><input type="text" id="Addparent">
+        <label for="Contactnr">Contact Number</label><input type="number" name="Contactnr" id="Contactnr">
+        <label for="Dayphone">Day Phone:</label><select name="dayphone" id="Dayphone"><option value="Cell">Cell</option>
+        <option value="Work">Work</option><option value="Home">Home</option></select>
+        <label for="evening">Evening Phone</label><select name="evening" id="evening"><option value="Cell">Cell</option>
+            <option value="Work">Work</option><option value="Home">Home</option></select><br>
+            <label for="Parentsattend">Have parents attended OFRC (please provide details)?</label><br><textarea name="Parentsattend" id="Parentsattend" cols="30" rows="6" maxlength="500"></textarea><br>
+            <label for="Occupations">Parents Occupations</label><input type="text" name="Occupations" id="Occupations"><br>
+            <label for="email">Contact Email(s)</label><input type="email" name="email" id="email">
+            <br>
+            <h5>Other than the parent/guardian names listed above, my child can be released to (name and phone number):</h5><br>
+            <label for="Name">Name</label><input type="text" name="Name" id="Name">
+            <label for="Relationship">Relationship to camper</label><input type="text" name="Relationship" id="Relationship"><label for="phone">Phone Number</label><input type="number" name="phone" id="phone"><br>
+            <label for="Name">Name</label><input type="text" name="Name" id="Name">
+            <label for="Relationship">Relationship to camper</label><input type="text" name="Relationship" id="Relationship"><label for="phone">Phone Number</label><input type="number" name="phone" id="phone"><br>
+            <section>
+                <h4>ADDITIONAL INFORMATION & REQUESTS</h4>
+                <label for="Request">Tent/Cabin Mate Request:</label><input type="text" id="Request"><br><p>
+                    We will attempt to honor all requests. For more information on our tent/cabin mate request policy, see our website.
+                </p><br>
+                <label for="Otherreq">Other Special Needs or Requests:</label> <br><textarea name="Otherreq" id="Otherreq" cols="30" rows="10"></textarea><br>
+                <p>Camper health information will be collected on a separate form that will be provided after receiving your completed registration and deposit.</p>
+            </section><br><br>
+            <section>
+                <h4>CAMPER DEMOGRAPHICS</h4>
+                <p>Many foundations require camper demographics to receive grant funding. In addition, providing camper demographic information may reduce the cost of leasing land from the Forest Service Participation in the following is optional, but very appreciated!</p><br>
+                
+                <div id="checkbox">
+                    <label for="Ethnicity">Ethnicity</label>
+                    <input type="checkbox" name="AA" id="Ethnicity" value="AA">African American
+                    <input type="checkbox" name="Asian" id="Ethnicity" value="Asian">Asian 
+                    <input type="checkbox" name="Caucasian" id="Ethnicity" value="Caucasian">Caucasian <input type="checkbox" name="Latino" id="Ethnicity" value="Latino">Latino <input type="checkbox" name="PacIs" id="Ethnicity" value="PacIs">Pacific Islander <input type="checkbox" name="Mixed" id="Ethnicity" value="Mixed">Mixed Race (choose applicaple) <input type="checkbox" name="Other" id="Ethnicity" value="Other">Other: <input type="text" name="Other" id="Other"><br>
+                    <label for="income">Annual Household Income</label><select name="Income" id="Income">
+                        <option value="under25k">Under $25 000</option>
+                        <option value="25k-50k">$25 000 - $50 000</option>
+                        <option value="50k-75k">$50 000 - $75 000 </option>
+                        <option value="75k-100k">$75 000 - $100 000</option>
+                        <option value="above100k">Above $100 000</option>
+                    </select>
+                </div><br></section> <br>
+                <p>I verify that I am the parent/guardian of the above named child; I hereby consent that he/she may attend OFRC Youth Camp. I agree to meet OFRC deadlines regarding payment and completing/returning all forms for my child.</p>
+                <label for="P/Gname">Parent/Guardian Name (Print)</label><input type="text" name="P/Gname" id="P/Gname"> <br>
+                <label for="Signature">Parent Signature</label><input type="text" name="Signature" id="Signature">
+                <h3>Payment Information</h3>
+                <p>
+                    A minimum 25% of total cost deposit is required upon time of registration to guarantee your child’s spot. <b>
+                    Paying by check helps Oakland Feather River Camp by significantly reducing charge fees</b>. <u> Please make checks payable to Camps in Common.</u> If paying your deposit by credit card, your remaining balance will be charged on June 1st, 2018. Please see website for change & cancellation policies.
+                </p><br>
+                <label for="Depositamnt">Deposit Amount Enclosed/To Charge:</label>$<input type="text" name="Depositamnt" id="Depositamnt"><br>
+                <label for="Donation">Optional Tax-Deductible Donation to Camps in Common:</label>$<input type="text" name="Donation" id="Donation"><br>
+                <label for="Date">Date:</label><input type="date" name="Date" id="date"><br>
+                <label for="PayMethod">Payment Method</label><select name="PayMethod" id="PayMethod">
+                    <option value="CQ">Check</option>
+                    <option value="CC">Credit Card</option>
+                    <option value="MO">Money Order</option>
+                </select>
+                <label for="CQ/MO">Check/Money Order #:</label><input type="text" name="CQ/MO" id="CQ/MO"><br>
+                <label for="CCnr">CC#</label><input type="text" name="CCnr" id="CCnr">
+                <label for="ExpDate">Expire Date</label><input type="date" name="ExpDate" id="date"><br>
+                <label for="CardName">Cardholder’s Name:</label><input type="text" name="CardName" id="CardName"><br>
+                <label for="CardSign">Cardholder’s Signature</label><input type="text" name="CardSign" id="CardSign">
+                <section>
+                    <h4>WHAT TO DO NEXT</h4>
+                    <p>
+                        <b>
+                            Please send completed registration form and payment to:
+                        </b> Camps in Common, PO Box 11061, Oakland, CA 94611(Up to May 15) or Oakland Feather River Camp, PO Box 3229, Quincy, CA 95971 (after May 15) <br> Email: Info@FeatherRiverCamp.com. High Quality Faxes can be sent to: 510-601-1595 Once payment has been received and processed, you will receive an email with your confirmation letter, receipt and required forms. <br><br>
+                        <input type="checkbox" name="Mail" id="Mail"><label for="Mail">Please check here if you’d like your confirmation letter mailed instead of emailed.</label>
+                    </p>
+                </section>
+        </form>
+</body>
+</html>
